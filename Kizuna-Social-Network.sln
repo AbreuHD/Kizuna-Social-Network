@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kizuna-Social-Network.Server", "Kizuna-Social-Network.Server\Kizuna-Social-Network.Server.csproj", "{E1912A85-4B49-411D-BD10-0702B7627C23}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "kizuna-social-network.client", "kizuna-social-network.client\kizuna-social-network.client.esproj", "{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1912A85-4B49-411D-BD10-0702B7627C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1912A85-4B49-411D-BD10-0702B7627C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1912A85-4B49-411D-BD10-0702B7627C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1912A85-4B49-411D-BD10-0702B7627C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

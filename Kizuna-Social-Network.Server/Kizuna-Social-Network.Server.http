@@ -1,0 +1,6 @@
+@Kizuna_Social_Network.Server_HostAddress = http://localhost:5167
+
+GET {{Kizuna_Social_Network.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
