@@ -14,7 +14,7 @@ Kizuna-Social-Network is a social networking platform developed with a modern fo
 ## Technologies Used
 
 - **Backend:** C# .NET 8
-- **Frontend:** React (developed in v0 dev by the project creator)
+- **Frontend:** React (With the help of [https://v0.dev](https://v0.dev) and my head)
 - **Real-time Communication:** SignalR
 - **Persistence:** Relational database with encryption support
 - **Containerization:** Docker
