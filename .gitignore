@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Documents/.$Database.drawio.bkp
+/Kizuna-Social-Network.Server/appsettings.json
