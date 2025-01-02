@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kizuna-Social-Network.Server", "Kizuna-Social-Network.Server\Kizuna-Social-Network.Server.csproj", "{E1912A85-4B49-411D-BD10-0702B7627C23}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "kizuna-social-network.client", "kizuna-social-network.client\kizuna-social-network.client.esproj", "{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C87CA10F-2E91-4A13-8CF6-8D0135916BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{5E9A674A-58AC-4478-BCBA-57B7B8884664}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{247A5FEA-257A-4167-9E2E-86934E6DD5B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{247EEE5D-8E10-4933-A64E-4788C2F5CDC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,5 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1912A85-4B49-411D-BD10-0702B7627C23} = {5E9A674A-58AC-4478-BCBA-57B7B8884664}
+		{341D7D41-1A94-4FCB-B29D-A6FAEEB943D3} = {247A5FEA-257A-4167-9E2E-86934E6DD5B3}
+		{5E9A674A-58AC-4478-BCBA-57B7B8884664} = {C87CA10F-2E91-4A13-8CF6-8D0135916BEF}
+		{247A5FEA-257A-4167-9E2E-86934E6DD5B3} = {C87CA10F-2E91-4A13-8CF6-8D0135916BEF}
 	EndGlobalSection
 EndGlobal
